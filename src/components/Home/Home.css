@@ -1,0 +1,10 @@
+.main-contianer{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+*,body{
+    color: white;
+}

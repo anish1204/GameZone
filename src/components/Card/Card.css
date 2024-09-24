@@ -1,0 +1,52 @@
+.card-container{
+    margin-bottom: 2%;
+    width: 97%;
+    background-color: #0e1a2b;
+    display: flex;
+    height: 22vh;
+
+}
+.game-logo{
+    width: 14%; 
+    background-color: black;
+}
+.game-logo img{
+    width: 30%;
+}
+.game-info{
+    padding-left: 3%;
+    width: 75%;
+}
+.card-title{
+    margin-top: 2%;
+}
+.date{
+
+}
+.summary{
+    margin-top: 1%;
+
+}
+
+.card-title{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.card-no{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.number-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #5692e8;
+    width: 40px;
+    height: 40px;
+}

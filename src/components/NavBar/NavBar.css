@@ -1,0 +1,17 @@
+.nav-container ul {
+    width: auto;
+    
+    display: flex;
+    
+    flex-direction: start;
+    font-size: 27px;
+    font-weight: 500;
+}
+.nav-container li{
+    list-style: none;
+    padding-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: #c1d1e8;
+}
