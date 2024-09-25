@@ -1,4 +1,25 @@
 .list-container{
     margin-left: 2%;
     width: 70%;
+    margin-top: 2%;
+    
+}
+.btm-pgn-sec{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5%;
+}
+.button-disabled{
+    background-color: #0e0e0e;
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .list-container{
+        margin-top: 5%;
+        
+        width:98%;
+    }
 }

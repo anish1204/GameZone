@@ -1,27 +1,40 @@
+*{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .container{
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin-top: 2%;
     width: 20%;
     background-color: #0e1a2b;
-    width: 50vh;
-    height: auto;
+    /* width: 50vh; */
+    height: max-content;
     color: #ffffff;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     box-shadow: 2px 1px 1px 1px black;
 
 }
-form{
+.filter-form{
+    /* width: 100%; */
+    width: 80%;
     margin-left: 5%;
+    
 }
 h2{
-    margin-left: 5%;
-    margin-bottom: 16%;
+    padding-left: 10%;
+    margin-bottom: 2%;
 }
 input{
+    
     background-color: #182c47;
     border: none;
+    width: 100%;
     color: white;
     font-size: large;
-    padding-left: 2%;
+    
 }
 button{
     background-color: #5692e8;
@@ -29,20 +42,25 @@ button{
     cursor: pointer;
 }
 .ind-field{
-    margin-top: 5%;
+    
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
 }
+.ind-field span{
+    margin-top: 10%;
+}
 .ind-field input{
+    
     margin-top: 2%;
-    width: 90%;
+    width: 100%;
     height: 5vh;
 
 }
 .ind-field select{
     background-color: #182c47;
     border: none;
-    width: 92.5%;
+    width: 100%;
     height: 5vh;
     margin-top: 2%;
 }
@@ -53,3 +71,33 @@ button{
     justify-content:flex-end;
     width: 25%;
 }
+#clr-btn{
+    width: 45%;
+}
+
+.slt-sec{
+    background-color: pink;
+    width: 100%;
+}
+.btm-sec{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 90%;
+        align-self: center;
+        justify-content: center;
+       
+    }
+    .btm-sec{
+        justify-content: start;
+    }
+    .ind-field span{
+        margin-top: 1px;
+    }
+  }
+
+
+  
