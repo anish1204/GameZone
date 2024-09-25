@@ -2,8 +2,8 @@
     margin-left: 5%;
     width: 20%;
     background-color: #0e1a2b;
-    width: 50vh;
-    height: auto;
+    /* width: 50vh; */
+    height: max-content;
     color: #ffffff;
     padding-bottom: 5%;
     box-shadow: 2px 1px 1px 1px black;

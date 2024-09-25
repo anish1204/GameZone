@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-const Card = () => {
+const Card = ({game}) => {
   return (
     <div className='card-container'>
         <div className="game-logo">
@@ -8,15 +8,15 @@ const Card = () => {
         </div>
         <div className="game-info">
           {/* <div className="game-title"> */}
-            <p className='card-title'>Game Title</p>
-            <p className='date'>Release Date : DD/MM/YYYY </p>
-            <p className='summary'>[Summary] tem nemo minima, rerum dolorem quas architecto. Temporibus odio a quia quisquam modi!</p>
+            <p className='card-title'>{game.attributes.name}</p>
+            <p className='date'>Release Date : {game.attributes.firstReleaseDate} </p>
+            <p className='summary'>[Summary] {game.attributes.summary}</p>
           {/* </div> */}
         
         </div>
         <div className="card-no">
               <div className="number-logo">
-                <p>9</p>
+                <p>{game.id%100}</p>
               </div>
         </div>
     </div>
