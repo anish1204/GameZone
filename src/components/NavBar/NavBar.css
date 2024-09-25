@@ -1,17 +1,35 @@
+*{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
 .nav-container ul {
     width: auto;
     
     display: flex;
-    
+
     flex-direction: start;
     font-size: 27px;
     font-weight: 500;
 }
-.nav-container li{
+
+.nav-container li {
     list-style: none;
     padding-left: 5%;
 }
-a{
+
+a {
     text-decoration: none;
     color: #c1d1e8;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-container ul {
+        display: flex;
+        flex-direction: column;
+    }
 }

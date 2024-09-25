@@ -26,8 +26,9 @@ const Contact = () => {
               <input type="text" />
             </div>
           </div>
-          <div className="btm-sec">
-            <span>Message*</span>
+          <div className="bottom-sec">
+            <p>Message*</p>
+            
             <input type="text" />
           </div>
           <div className="btn-sec">

@@ -27,7 +27,7 @@ const Home = () => {
           console.error("Expected an array but got:", jsonData);
         }
 
-        console.log(jsonData); // Log the data to the console
+         console.log(jsonData); // Log the data to the console
       } catch (error) {
         console.error("Error fetching data:", error);
       }
