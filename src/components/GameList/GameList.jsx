@@ -3,8 +3,7 @@ import Card from "../Card/Card";
 import "./GameList.css";
 
 const GameList = ({ games, query, rating, sortBy }) => {
-  // console.log(games);
-  console.log(sortBy);
+
   const [currentPage, setCurrentPage] = useState(1);
   const recordsPerPage = 5;
   const lastIndex = currentPage * recordsPerPage;
@@ -49,28 +48,17 @@ const GameList = ({ games, query, rating, sortBy }) => {
           )
           .sort((a, b) => {
             if (sortBy === 'name') {
-              return b.attributes.name.localeCompare(a.attributes.name); // Sort by name in descending order
+              return b.attributes.name.localeCompare(a.attributes.name); 
             } else if (sortBy === 'score') {
-              return b.attributes.rating - a.attributes.rating; // Sort by rating in descending order
+              return b.attributes.rating - a.attributes.rating; 
             }
-            return 0; // If no sorting criteria is provided
+            return 0; 
           })
           .map((game, index) => (
             <Card key={index} game={game} />
           ))}
 
-      {/*    
-   
-      {
-        games.filter((indgame)=> indgame.attributes.name.toLowerCase().includes('SEGA'))
-      }
-      {games.map((game, index) => (
-        <Card key={index} game={game} />
-      ))}
-     */}
-
-
-      {/* <Pagination/> */}
+     
       <nav className="btm-pgn-sec">
         
           <button onClick={prePage} className={(currentPage==1)?'button-disabled':''}>

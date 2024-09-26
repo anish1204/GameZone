@@ -8,12 +8,9 @@ const Card = ({ game }) => {
 
         </div>
         <div className="game-info">
-          {/* <div className="game-title"> */}
           <p className='card-title'>{game.attributes.name}</p>
           <p className='date'>Release Date : {game.attributes.firstReleaseDate.split('T')[0]} </p>
           <p className='summary'>[Summary] {game.attributes.summary}</p>
-          {/* </div> */}
-
         </div>
         <div className="card-no">
           <div className="number-logo">
@@ -31,12 +28,9 @@ const Card = ({ game }) => {
         </div>
         </div>
         <div className="game-info">
-          {/* <div className="game-title"> */}
           <p className='card-title'>{game.attributes.name}</p>
-          <p className='date'>Release Date : {game.attributes.firstReleaseDate} </p>
+          <p className='date'>Release Date : {game.attributes.firstReleaseDate.split('T')[0]} </p>
           <p className='summary'>[Summary] {game.attributes.summary}</p>
-          {/* </div> */}
-
         </div>
         
       </div>

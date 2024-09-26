@@ -1,11 +1,5 @@
 
 *{
-    /* font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal; */
-    
-
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -38,9 +32,6 @@ mb-card-container{
 }
 .card-title{
     margin-top: 2%;
-}
-.date{
-
 }
 .summary{
     margin-top: 1%;
