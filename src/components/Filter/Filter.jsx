@@ -19,7 +19,6 @@ const Filter = ({setQuery,setRating,setSortBy}) => {
 
         <div className="ind-field">
         <span>Order By</span>
-        {/* onChange={(e)=>setSortBy(e.target.value.toLowerCase())} */}
         <select className="slt-sec" onChange={(e)=>setSortBy(e.target.value)} name="Release Date" id="">
         <option value="" disabled selected>Release Date</option>
           <option value="score">Score</option>
