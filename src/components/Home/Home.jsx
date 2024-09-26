@@ -20,14 +20,12 @@ const Home = () => {
         const response = await fetch("https://spa.api.logicloop.io/api/games");
         const jsonData = await response.json();
 
-        // Assuming the API response has a 'games' array
+      
         if (Array.isArray(jsonData.data)) {
-          setData(jsonData.data); // Set the array of games
+          setData(jsonData.data); 
         } else {
           console.error("Expected an array but got:", jsonData);
         }
-
-         console.log(jsonData); // Log the data to the console
       } catch (error) {
         console.error("Error fetching data:", error);
       }
