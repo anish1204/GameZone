@@ -1,5 +1,5 @@
 # Live Project Link
-### [Live Project Link](game-zone-sigma.vercel.app)
+### [Live Project Link](https://game-zone-sigma.vercel.app/)
 
 # Clone the Project
 
